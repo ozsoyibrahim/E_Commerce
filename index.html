@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Commerce</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1 class="logo">i/Q"zsoy</h1>
+    <input type="text" placeholder="product name" />
+    <div>
+      <button id="open-btn">Basket</button>
+      <button>Sing in</button>
+      <button>Login</button>
+    </div>
+  </header>
+  <main>
+    <!-- KATEGORİLER -->
+    <div class="category-wrapper">
+      <h1>CATEGORIES</h1>
+      <div class="categories"></div>
+    </div>
+    <!-- ÜRÜNLER -->
+    <div class="products-wrapper">
+      <h1>PRODUCTS</h1>
+
+      <div class="products"></div>
+      <!-- ÜRÜNLER SON -->
+      <!-- MODAL > SEPET -->
+
+      <div id="modal-wrapper">
+        <div id="modal">
+          <div class="basket-header">
+            <h2>My Basket</h2>
+            <p>Total Price: <span id="total-price"></span> $</p>
+          </div>
+          <img id="close-btn" src="images/close.png" alt="">
+          <div class="modal-list">
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
