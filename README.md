@@ -4,6 +4,6 @@
 
 <h4>This work is made with HTML, CSS and Javascript codes.</h4>
 
-<h4>Please <a href="#"> <b>CLICK</b> </a> to visit website</h4>
+<h4>Please <a href="https://ozsoyibrahim.github.io/E_Commerce/"> <b>CLICK</b> </a> to visit website</h4>
 
 <img src="/images/screen.gif" alt="">
